@@ -41,7 +41,7 @@ function setup() {
 
 function draw() {
   rectMode(CENTER);
-  background(230, 230, 230);
+  background("WHITE");
   
   
   drawSprites();
@@ -100,7 +100,7 @@ function mouseReleased()
 
 function keyPressed() {
 	if (keyCode === 32) {
-    Matter.Body.setPosition(stoneObj.body, {x:453, y:520}) 
+    Matter.Body.setPosition(stoneObj.body, {x:200, y:390}) 
 	  launcherObject.attach(stoneObj.body);
 	}
   }
