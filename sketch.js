@@ -113,5 +113,5 @@ var distance = dist(stoneBodyPosition.x,stoneBodyPosition.y, mangoBodyPosition.x
 
 if (distance <= Lmango.r + Lstone.r  ){
 
-	Matter.Body.setStatic(Lmango.body,false);
+	Matter.Body.setStatic(Lmango.body,false); 
 }}
